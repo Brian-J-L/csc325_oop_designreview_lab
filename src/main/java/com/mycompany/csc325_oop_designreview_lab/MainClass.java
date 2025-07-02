@@ -16,7 +16,7 @@ public class MainClass {
 
 		System.out.print("Enter GPA for Freshman (James): ");
 		std1.setGpa(scanner.nextDouble());
-
+// ToDo 12 only asks scanner for GPA
 		System.out.print("Enter GPA for Senior (John): ");
 		std2.setGpa(scanner.nextDouble());
 
