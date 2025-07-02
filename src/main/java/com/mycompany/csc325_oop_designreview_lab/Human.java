@@ -26,10 +26,14 @@ public abstract class Human {
 	public void setName(String name) {
 		this.name = name;
 	}
+	// address already declared in Human
+	public String getAddress() {
+		return address;
+	}
 
-	public abstract String getAddress() ;
-
-	public abstract void setAddress(String address);
+	public void setAddress(String address) {
+		this.address = address;
+	}
 
 
 	public short getAge() {
